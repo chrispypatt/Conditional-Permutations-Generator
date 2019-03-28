@@ -9,7 +9,7 @@ The conditional permutations are as follows:
 	D = EBE’B’ ; D’ = BEB’E’
 	E = DAD’A’ ; E’ = ADA’D’
 
-#Running this code:
+# Running this code:
 
 	cd <directory location>
 	make 
