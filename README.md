@@ -21,6 +21,7 @@ The conditional permutations are as follows:
 * OR(x,y)
 * NOR(x,y)
 * XOR(x,y)
+
 This program allows for nested gates. To represent inverted variables, use `'`. 
 
 Examples of valid inputs would be:
