@@ -9,11 +9,11 @@ using namespace std;
 map <string, string*> permutations;
 
 typedef struct node { 
-    string op;
-    string exp; 
-    string letter1, letter2, parent;
+    string op = "";
+    string exp = ""; 
+    string letter1, letter2;
     int level, count;
-    bool inv = false, end = false, parent_inv=false;
+    bool inv = false, end = false;//, parent_inv=false;
     struct node *left, *right; 
 
     node(){
@@ -89,6 +89,9 @@ class Decomposition {
 
         bool isOperator(string str);
         node* parse(string func, int lvl); 
-        void traverse(node* tree);
+        void permute(node* tree);
+        node* traverse(node* tree);
+        node* convert(node* tree);
+        node* set_exp(node* tree);
 };
 

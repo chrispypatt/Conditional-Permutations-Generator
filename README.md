@@ -29,6 +29,12 @@ Examples of valid inputs would be:
 	F(x, y, z) = (x&z)’&(x’&y’)’
 		AND(NAND(x,z),NAND(x',y'))
 
+	F(x,y) = x+y = (x'y')'
+        OR(x,y) = NAND(x',y')
+
+    F(x,y,z) = (x'y'z'),
+        NAND(AND(x',y'),z')
+
 	F(x,y,z) = (x&z)'&((y&z)&x')'
 		AND(NAND(x,z),NAND(AND(y,z),x'))
 
