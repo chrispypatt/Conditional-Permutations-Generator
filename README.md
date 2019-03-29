@@ -1,4 +1,5 @@
 # Circuits and Conditional Permutations
+***FOR A SUMMARY OF THE PROGRAM AND TEST CASE EXAMPLES, READ Summary_and_TestCases.pdf***
 This program is meant to convert boolean functions (with a specific input format) into conditional permutation representation. 
 
 The conditional permutations are as follows:
@@ -13,9 +14,9 @@ The conditional permutations are as follows:
 
 	cd <directory location>
 	make 
-	./bool2cp <b>	: b is the boolean function to parse*
+	./bool2cp
 
-*In  order to parse the boolean function, it must be converted to input format specified below where each operator is a 2 input gate of variables x and y:
+The program will then prompt for a boolean function input. In  order to parse the boolean function, it must be converted to input format specified below where each operator is a 2 input gate of variables x and y:
 * AND(x,y)
 * NAND(x,y)
 * OR(x,y)
